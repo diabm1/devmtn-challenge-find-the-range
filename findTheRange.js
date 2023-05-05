@@ -31,12 +31,15 @@ max = 0;
 min = 0;
 
 for (let i = 0; i < numbers.length; i++) {
+  //let val equal value of index of array
   let val = numbers[i];
+  //if val is bigger that max
   if (val > max) {
+    //let max equal val which equals the value of the index of the array
     max = val;
   }
 }
-for (let i = 0; i < array.length; i++) {
+for (let i = 0; i < numbers.length; i++) {
   let val = numbers[i];
   if (val < min) {
     min = val;
